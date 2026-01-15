@@ -81,7 +81,7 @@
             bindings = <
                 &kp Q       &kp W       &kp E         &kp R        &kp T        &kp Y      &kp U            &kp I        &kp O       &kp P
                 &mt LGUI A  &mt LALT S  &mt LCTRL D   &mt LSHFT F  &kp G        &kp H      &mt RSHFT J      &mt RCTRL K  &mt RALT L  &mt RGUI SEMICOLON
-&kp LEFT_SHIFT  &lt 3 Z     &kp X       &kp C         &kp V        &kp B        &kp N      &kp M            &kp COMMA    &kp DOT     &lt 3 SLASH         &mt RIGHT_SHIFT SQT
+&kp LEFT_SHIFT  &lt 3 Z     &kp X       &kp C         &kp V        &kp B        &kp N      &kp M            &kp COMMA    &kp DOT     &lt 3 SLASH         &kp RIGHT_SHIFT
                                         &lt 4 ESCAPE  &lt 1 SPACE  &lt 2 TAB    &lt 6 RET  &lt 5 BACKSPACE  &lt 7 DEL
             >;
         };
@@ -103,9 +103,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans        &trans        &trans            &trans          &trans    &kp K_REDO    &kp K_PASTE    &kp K_COPY     &kp K_CUT    &kp K_UNDO
+        &trans        &trans        &trans            &trans          &trans    &kp LC(Y)     &kp LC(V)      &kp LC(C)      &kp LC(X)    &kp LC(Z)
         &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &kp CAPSLOCK  &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT
-&trans  &trans        &trans        &trans            &trans          &trans    &kp INS       &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END     &trans
+&trans  &trans        &trans        &trans            &trans          &trans    &kp INS       &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
                                     &trans            &trans          &trans    &kp RET       &kp BACKSPACE  &kp DELETE
             >;
         };
@@ -136,9 +136,9 @@
 
         Button_Layer {
             bindings = <
-           &kp LC(Z)     &kp LC(X)     &kp LC(C)         &kp LC(V)       &kp LC(Y)    &kp RC(Y)  &kp RC(V)        &kp RC(C)  &kp RC(X)      &kp RC(Z)
+           &kp LC(Z)     &kp LC(X)     &kp LC(C)         &kp LC(V)       &kp LC(Y)    &kp LC(Y)  &kp LC(V)        &kp LC(C)  &kp LC(X)      &kp LC(Z)
            &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans       &trans     &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI
-&kp LC(Z)  &trans        &kp LC(X)     &kp LC(C)         &kp LC(V)       &kp LC(Y)    &kp RC(Y)  &kp RC(V)        &kp RC(C)  &kp RC(X)      &trans         &kp RC(Z)
+&kp LC(Z)  &trans        &kp LC(X)     &kp LC(C)         &kp LC(V)       &kp LC(Y)    &kp LC(Y)  &kp LC(V)        &kp LC(C)  &kp LC(X)      &trans         &kp LC(Z)
                                        &mkp MB3          &mkp MB1        &mkp MB2     &mkp MB2   &mkp MB1         &mkp MB3
             >;
         };
@@ -154,10 +154,10 @@
 
         Num_Layer {
             bindings = <
-        &kp LEFT_BRACKET  &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET    &trans  &trans           &trans     &trans         &trans
-        &kp SEMICOLON     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL            &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI
-&trans  &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PIPE             &trans  &trans           &trans     &trans         &trans         &trans
-                                        &kp PERIOD    &kp NUMBER_0  &kp MINUS            &trans  &trans           &trans
+         &kp LEFT_BRACKET  &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET    &trans  &trans           &trans     &trans         &trans
+         &kp SEMICOLON     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL            &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI
+&kp SQT  &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PIPE             &trans  &trans           &trans     &trans         &trans         &trans
+                                         &kp PERIOD    &kp NUMBER_0  &kp MINUS            &trans  &trans           &trans
             >;
         };
 
@@ -178,10 +178,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &trans           &trans     &trans         &trans
-        &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI
-&trans  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE           &trans  &trans           &trans     &trans         &trans         &trans
-                                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE     &trans  &trans           &trans
+                   &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &trans           &trans     &trans         &trans
+                   &kp COLON       &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI
+&kp DOUBLE_QUOTES  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE           &trans  &trans           &trans     &trans         &trans         &trans
+                                                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE     &trans  &trans           &trans
             >;
         };
 
