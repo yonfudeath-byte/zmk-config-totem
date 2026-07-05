@@ -83,6 +83,26 @@
             bindings = <&kp NUMBER_6>;
             key-positions = <15 5>;
         };
+
+        n7 {
+            bindings = <&kp N7>;
+            key-positions = <6 16>;
+        };
+
+        n8 {
+            bindings = <&kp NUMBER_8>;
+            key-positions = <7 17>;
+        };
+
+        n9 {
+            bindings = <&kp NUMBER_9>;
+            key-positions = <8 18>;
+        };
+
+        n0 {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <9 19>;
+        };
     };
 
     macros {
