@@ -195,23 +195,6 @@
         };
     };
 
-    macros {
-        gif: gif {
-            label = "giphy";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp N2>,
-                <&macro_release>,
-                <&kp LSHFT>,
-                <&macro_tap>,
-                <&kp G &kp I &kp F>;
-        };
-    };
-
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -259,7 +242,7 @@
 
             bindings = <
                  &kp Q  &kp W       &kp E         &kp R        &kp T             &kp Y            &kp U            &kp I        &kp O       &kp P
-                 &kp A  &hm LALT S  &hm LCTRL D   &hm LSHFT F  &hm LEFT_GUI G    &hm RIGHT_WIN H  &hm RSHFT J      &hm LCTRL K  &hm RALT L  &kp MINUS
+                 &kp A  &hm LALT S  &hm LCTRL D   &hm LSHFT F  &hm LEFT_GUI G    &hm RIGHT_WIN H  &hm RSHFT J      &hm LCTRL K  &hm RALT L  &mt PLUS MINUS
 &OSM LEFT_SHIFT  &kp Z  &kp X       &kp C         &kp V        &kp B             &kp N            &kp M            &kp COMMA    &kp DOT     &mt LS(SLASH) SLASH  &OSM RIGHT_SHIFT
                                     &lt 4 ESCAPE  &lt 2 TAB    &lt 1 SPACE       &lt 6 SPACE      &lt 5 BACKSPACE  &lt 7 DEL
             >;
