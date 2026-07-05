@@ -103,9 +103,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans        &trans        &trans            &trans          &trans    &kp LC(Y)  &kp PG_UP      &kp UP      &kp PAGE_DOWN  &trans
+        &trans        &trans        &trans            &trans          &trans    &trans     &kp PG_UP      &kp UP      &kp PAGE_DOWN  &trans
         &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &kp HOME   &kp LEFT       &kp DOWN    &kp RIGHT      &kp END
-&trans  &trans        &trans        &trans            &trans          &trans    &kp LC(Y)  &trans         &trans      &trans         &kp LC(Z)  &trans
+&trans  &trans        &trans        &trans            &trans          &trans    &kp LC(Y)  &kp LC(V)      &kp LC(C)   &kp LC(X)      &kp LC(Z)  &trans
                                     &trans            &trans          &trans    &kp RET    &kp BACKSPACE  &kp DELETE
             >;
         };
