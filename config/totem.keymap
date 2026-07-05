@@ -41,12 +41,12 @@
 
         chnglang {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <3 2>;
+            key-positions = <2 3>;
         };
 
         lang2 {
             bindings = <&kp LANG2>;
-            key-positions = <2 1>;
+            key-positions = <1 2>;
         };
 
         lang1 {
@@ -155,8 +155,43 @@
         };
 
         semicolon {
-            bindings = <&kp SEMICOLON>;
+            bindings = <&mt LS(SEMICOLON) SEMICOLON>;
             key-positions = <28 29>;
+        };
+
+        zx {
+            bindings = <&kp LC(X)>;
+            key-positions = <22 21>;
+        };
+
+        xc {
+            bindings = <&kp LC(C)>;
+            key-positions = <22 23>;
+        };
+
+        cv {
+            bindings = <&kp LC(V)>;
+            key-positions = <23 24>;
+        };
+
+        xv {
+            bindings = <&kp LC(LS(V))>;
+            key-positions = <24 22>;
+        };
+
+        jk {
+            bindings = <&kp RET>;
+            key-positions = <16 17>;
+        };
+
+        exc {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <30 29>;
+        };
+
+        sq {
+            bindings = <&mt LS(SQT) SQT>;
+            key-positions = <19 18>;
         };
     };
 
