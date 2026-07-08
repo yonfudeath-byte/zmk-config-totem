@@ -41,17 +41,17 @@
 
         chnglang {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <2 3>;
+            key-positions = <12 13>;
         };
 
         lang2 {
             bindings = <&kp LANG2>;
-            key-positions = <1 2>;
+            key-positions = <12 11>;
         };
 
         lang1 {
             bindings = <&kp LANG1>;
-            key-positions = <7 8>;
+            key-positions = <17 18>;
         };
 
         n1 {
@@ -116,7 +116,7 @@
 
         f2 {
             bindings = <&kp F2>;
-            key-positions = <6 7>;
+            key-positions = <16 17>;
         };
 
         rt {
@@ -187,6 +187,11 @@
         sq {
             bindings = <&mt LS(SQT) SQT>;
             key-positions = <19 18>;
+        };
+
+        cw {
+            bindings = <&caps_word>;
+            key-positions = <6 7>;
         };
     };
 
